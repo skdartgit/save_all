@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/save_all/save_all/app/src/main/kotlin/com/sanat/saveall/MainActivity.kt

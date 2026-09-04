@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+color premium_blue
+color premium_blue_dark
+color premium_white
+drawable bg_panel
+drawable button_premium
+drawable ic_launcher_background
+style Theme.SaveAll
+xml backup_rules
+xml data_extraction_rules
+xml file_paths

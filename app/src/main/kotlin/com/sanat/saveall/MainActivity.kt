@@ -666,19 +666,19 @@ class MainActivity : ComponentActivity() {
                         color = TextDark
                     )
 
-                    Spacer(Modifier.height(20.dp))
+                    Spacer(Modifier.height(5.dp))
 
                     Text(
                         text = "First Time PIN is 123456.",
-                        fontSize = 10.sp,
+                        fontSize = 8.sp,
                         color = TextDark
                     )
 
                     Spacer(Modifier.height(5.dp))
 
                     Text(
-                        text = "Use Exoort All Data before Uninstalling",
-                        fontSize = 14.sp,
+                        text = "Use Export All Data before Uninstalling",
+                        fontSize = 8.sp,
                         color = Color.DarkGray
                     )
 

@@ -960,26 +960,26 @@ class MainActivity : ComponentActivity() {
         title: String,
         subtitle: String
     ) {
-
+    
         Column(
             modifier = Modifier.padding(
-                horizontal = 20.dp,
-                vertical = 18.dp
+                horizontal = 16.dp,
+                vertical = 10.dp
             )
         ) {
-
+    
             Text(
                 text = title,
-                fontSize = 28.sp,
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 color = TextDark
             )
-
-            Spacer(Modifier.height(4.dp))
-
+    
+            Spacer(Modifier.height(2.dp))
+    
             Text(
                 text = subtitle,
-                fontSize = 14.sp,
+                fontSize = 12.sp,
                 color = Color.DarkGray
             )
         }
@@ -1160,11 +1160,13 @@ class MainActivity : ComponentActivity() {
 
                     Spacer(Modifier.height(12.dp))
 
-                    Text(
-                        text = note.description,
-                        color = TextDark,
-                        fontSize = 15.sp
-                    )
+                    androidx.compose.foundation.text.selection.SelectionContainer {
+                        Text(
+                            text = note.description,
+                            color = TextDark,
+                            fontSize = 15.sp
+                        )
+                    }
                 }
             }
         }

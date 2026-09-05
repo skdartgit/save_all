@@ -669,15 +669,15 @@ class MainActivity : ComponentActivity() {
                     Spacer(Modifier.height(20.dp))
 
                     Text(
-                        text = "After installation, the First Time PIN is 123456.",
-                        fontSize = 15.sp,
+                        text = "First Time PIN is 123456.",
+                        fontSize = 10.sp,
                         color = TextDark
                     )
 
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(5.dp))
 
                     Text(
-                        text = "Before uninstalling the app, please Export All Data. After installing again, Restore All Data from your backup.",
+                        text = "Use Exoort All Data before Uninstalling",
                         fontSize = 14.sp,
                         color = Color.DarkGray
                     )
